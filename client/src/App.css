@@ -44,9 +44,18 @@
 ul {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 12px;
+  list-style: none;
+  align-content: center;
 }
 
-ul li {
-  background-color: #444141;
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50px;
+  background-color: #ffff8f;
+  color: #000000;
+  margin: 0;
+  border-radius: 8px;
 }
