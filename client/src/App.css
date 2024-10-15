@@ -40,3 +40,13 @@
 .read-the-docs {
   color: #888;
 }
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+ul li {
+  background-color: #444141;
+}
